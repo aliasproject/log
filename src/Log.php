@@ -30,7 +30,7 @@ class Log
      */
     protected static function configureInstance()
     {
-        $dir = dirname(__DIR__, 2) . '/storage/logs';
+        $dir = dirname(__DIR__, 4) . '/storage/logs';
 
         if (!file_exists($dir)) {
             mkdir($dir, 0777, true);
